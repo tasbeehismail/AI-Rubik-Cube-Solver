@@ -72,7 +72,7 @@ if __name__ == '__main__':
     parser.add_argument('--m', metavar='False', default=False, type=bool, action='store', help='Run manually (start gui) or run the AI first')
     parser.add_argument('--n', metavar='2', default=2, type=int, action='store', help='The dimension of the cube (nxn)')
     parser.add_argument('--s', metavar='5', default=5, type=int, action='store', help='How many times to scramble the cube')
-    parser.add_argument('--a', metavar='ida*', default='ida*', type=str, action='store', help='Which AI algorithm to use: (bfs), (bbfs), (a*), (ida*), (mini)')
+    parser.add_argument('--a', metavar='ida', default='ida', type=str, action='store', help='Which AI algorithm to use: (bfs), (bbfs), (a), (ida), (mini)')
 
     args = parser.parse_args()
 
