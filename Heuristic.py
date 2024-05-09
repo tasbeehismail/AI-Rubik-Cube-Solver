@@ -1,9 +1,3 @@
-'''
-    Team 4 - Ben Duggan & Connor Altic
-    11/26/18
-    Class containing heuristics that can be used
-'''
-
 from Cube import *
 from ManhattanCube import *
 
@@ -29,21 +23,7 @@ class Heuristic:
                 elif l == 2:
                     score += 25
         return 1200 - score
-
-    # Heuristic that calculates the hamming distance of the cube in comparison to the goal state
-    # cube = a Cube object
-    # return the heuristic value
-    @staticmethod
-    def hammingDistance(cube):
-        current_state = cube.state
-        goal_state = Cube(cube.size).state
-        score = 6 * cube.size**2
-        for i in range(6):
-            for j in range(len(current_state[i])):
-                if current_state[i] == goal_state[i]:
-                    score -= 1
-        return score
-
+    
     # Heuristic that calculates the 3D Manhattan Distance of the cube by calling myHeuristic.scoreCube(cube)
     # cube = a Cube object
     # return the heuristic value

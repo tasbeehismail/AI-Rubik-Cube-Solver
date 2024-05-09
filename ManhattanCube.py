@@ -1,10 +1,8 @@
 '''
-    Team 4 - Ben Duggan & Connor Altic
-    12/10/18
     Class ManhattanCube that makes a cube of all corner pieces to be used with Manhattan Heuristic
 '''
 
-from Cube import*
+from Cube import *
 
 class ManhattanCube:
     # Makes the Manhattan Cube given a Cube

@@ -1,12 +1,6 @@
-'''
-    Team 4 - Ben Duggan & Connor Altic
-    11/3/18
-    Class with main gui class
-'''
-
 import math, random
 from copy import copy, deepcopy
-from ManhattanCube import*
+from ManhattanCube import *
 
 class Cube:
     # constructor takes n for size of cube
