@@ -7,7 +7,7 @@
   - A* Search
   - Iterative Deepening A* (IDA*)
   - MiniMax algorithm
-- Implements three heuristics for guiding the AI:
+- Implements two heuristics for guiding the AI:
   - Simple heuristic
   - Manhattan Distance heuristic
 - Provides a Graphical User Interface (GUI) for interactive cube solving:
