@@ -1,5 +1,5 @@
 # AI Cube Solver
-
+[Demo Video](https://youtu.be/m8MfmQieavw)
 ## Features
 - Solves 2x2 Rubik's Cube using various AI algorithms:
   - Breadth-First Search (BFS)
@@ -15,3 +15,4 @@
   - Displays 2D and 3D representations of the Rubik's Cube
   - Allows users to perform moves and observe the cube state
   - Facilitates easy experimentation with solving strategies
+
